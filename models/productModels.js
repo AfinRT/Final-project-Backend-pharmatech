@@ -404,7 +404,7 @@ async function saveProductSaleUnits(
     const existingUnit = existingUnits.find(
       (candidate) =>
         String(candidate.unit_name).trim().toLowerCase() ===
-          unit.unit_name.toLowerCase() &&
+        unit.unit_name.toLowerCase() &&
         Number(candidate.base_quantity) === unit.base_quantity,
     );
 
